@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+
+.auth-parent{
+    height: 100vh;
+    display: flex;
+ 
+    align-items: center;
+    justify-content: center;
+    background: hsla(185, 78%, 51%, 1);
+
+background: linear-gradient(90deg, hsla(185, 78%, 51%, 1) 46%, hsla(177, 28%, 53%, 1) 98%);
+
+background: -moz-linear-gradient(90deg, hsla(185, 78%, 51%, 1) 46%, hsla(177, 28%, 53%, 1) 98%);
+
+background: -webkit-linear-gradient(90deg, hsla(185, 78%, 51%, 1) 46%, hsla(177, 28%, 53%, 1) 98%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#20D3E3", endColorstr="#65A8A5", GradientType=1 );
+    position: absolute;
+    width: 100%;
+    
+}
+.auth-parent h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.auth-parent form{
+    width: 400px;
+    box-shadow: 0 0 3px gray;
+    padding: 20px;
+    background-color: white !important;
+    z-index: 1;
+    padding: 60px 30px;
+    opacity: 0.85;
+
+}
+
+
+.brand{
+    font-size: 85px !important;
+    font-weight: bolder !important;
+    position: absolute;
+    top: 1%;
+    width: 100%;
+    left: 0;
+    text-align: center;
+   
+    color: rgba(0, 0, 0, 0.747);
+    font-family: 'Josefin Sans', sans-serif !important;
+   
+}
+
+
+@media only screen and (max-width:1000px){
+    .brand{
+        display: none;
+    }
+}

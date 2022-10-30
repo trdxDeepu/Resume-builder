@@ -1,0 +1,39 @@
+.layout{
+    height: 100vh;
+    padding: 20px 50px;
+}
+
+.header{
+    height: 10%;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.header h1{
+    color: #201b7f;
+    font-size:28px;
+}
+.btn{
+    background-color: #1d1e1fec !important;
+    border: 1px solid #5EB4C2 !important;
+    color: rgba(236, 237, 240, 0.832) !important;
+}
+
+.content{
+    height: 87%;
+    border: 1px solid gray;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(128, 128, 128, 0.486);
+    padding: 10px;
+}
+
+@media only screen and (max-width:480px){
+    .layout {
+        height: 100vh;
+        padding: 20px 30px;
+    }
+}
